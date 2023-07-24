@@ -12,15 +12,15 @@ Pour installer et exécuter l'application MoneyValue, procédez comme suit :
 
 1. Clonez le dépôt sur votre ordinateur en utilisant 'git clone'.
 
-Installez les dépendances nécessaires en exécutant 'composer install' à la racine du projet.
+2. Installez les dépendances nécessaires en exécutant 'composer install' à la racine du projet.
 
-Créez un nouveau fichier '.env' basé sur le fichier '.env.example' et configurez la connexion à la base de données.
+3. Créez un nouveau fichier '.env' basé sur le fichier '.env.example' et configurez la connexion à la base de données.
 
-Générez une clé d'application en utilisant 'php artisan key:generate'.
+3. Générez une clé d'application en utilisant 'php artisan key:generate'.
 
-Lancer les migrations de base de données et les seeders pour créer les tables nécessaires et remplir les données initiales avec 'php artisan migrate --seed'.
+5. Lancer les migrations de base de données et les seeders pour créer les tables nécessaires et remplir les données initiales avec 'php artisan migrate --seed'.
 
-Démarrer le serveur de développement avec 'php artisan serve'.
+6. Démarrer le serveur de développement avec 'php artisan serve'.
 
 API
 
