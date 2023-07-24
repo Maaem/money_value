@@ -1,0 +1,11 @@
+// main.js
+
+import { createApp } from 'vue';
+import App from './App.vue';
+import router from './router';
+
+const app = createApp(App);
+
+app.use(router); // Utilisez le router dans votre application
+
+app.mount('#app');
